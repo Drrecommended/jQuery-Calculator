@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    
+}
+
+.myClac {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px auto) repeat(5, 100px);
+    border: 2px solid grey;
+
+}
+
+button {
+    font-size: 2rem;
+    border: 2px solid grey;
+    outline: none;
+    background-color: red;
+}
+
+#span-three {
+    grid-column: span 3;
+}
+
+.answer {
+    border: 2px solid grey;
+    background-color: #183A29;
+    color: #2BDA91;
+    font-size: 28px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
