@@ -23,9 +23,10 @@ body {
 
 button {
     font-size: 2rem;
+    color: lavender;
     border: 2px solid grey;
     outline: none;
-    background-color: red;
+    background-color: #353839;
 }
 
 #span-three {
@@ -40,4 +41,9 @@ button {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+
+#clear {
+    background-color: rgb(249, 131, 4);
+    color: black;
 }
